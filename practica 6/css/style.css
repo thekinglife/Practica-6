@@ -1,0 +1,83 @@
+   *{
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        background-color: #021373;
+        color:white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    div
+    {
+        width: 500px;
+        height: 250px;
+        background-color: #0D0D0D;
+        color:linen;
+        margin: 10px;
+        padding: 20px 10px 30px 30px;
+        border: 1px solid #999999;
+        border-radius: 25px 0px 25px 0px;
+        box-shadow: 2px 2px 15px #8585ad;
+    }
+    ul
+    {
+        list-style: none;
+        margin-top: 0;
+    }
+    ul li
+    {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        height: 50px;
+    }
+    ul li a
+    {
+        width:300px;
+        height: 50px;
+        background-color: #0583F2;
+        display: block;
+        border-left: 5px solid #9A879D;
+        border-radius: 5px solid #222;;
+        padding-left: 10px;
+        text-decoration: darkgoldenrod;
+        color: rgb(240, 253, 255);
+    }
+    ul li a:hover
+    {
+        margin-left: 10px;
+        color: greenyellow;
+        box-shadow: 10px 10px 20px #0540F2;
+        transform: rotate(4deg);
+       -moz-transform: rotate(4deg);
+       -webkit-transform: rotate(4deg);
+    }
+    td
+    {
+       vertical-align: top;
+    }
+    .encabezado
+    {
+       height: 180px;
+       width: 100%;
+       padding: 0px;
+       margin: 0px;
+       border-radius: 0px;
+       border: 0px;
+       background-color: #0D0D0D;
+       color: white;
+       text-align: center;
+       padding-top: 80px;
+    }
+    .piePagina
+    {
+       height: 100px;
+       width: 100%;
+       padding: 0px;
+       margin: 0px;
+       border-radius: 0px;
+       border: 0px;
+       background-color: #0D0D0D;
+       color: white;
+       text-align: center;
+    }
